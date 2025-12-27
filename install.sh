@@ -44,18 +44,18 @@ $PT_PATH/app/Http/Controllers/Admin/UserController.php.bak
 echo "⬇️ Mengunduh file proteksi..."
 
 # Anti Intip
-curl -s https://raw.githubusercontent.com/donzxdxy/protect-panel/main/ServerAntiIntip/FileController.php \
+curl -s https://raw.githubusercontent.com/donzxdxy/secreetptero/main/ServerAntiIntip/FileController.php \
 -o $PT_PATH/app/Http/Controllers/Api/Client/Servers/FileController.php
 
-curl -s https://raw.githubusercontent.com/donzxdxy/protect-panel/main/ServerAntiIntip/ServerController.php \
+curl -s https://raw.githubusercontent.com/donzxdxy/secreetptero/main/ServerAntiIntip/ServerController.php \
 -o $PT_PATH/app/Http/Controllers/Api/Client/Servers/ServerController.php
 
 # Anti Delete Server
-curl -s https://raw.githubusercontent.com/donzxdxy/protect-panel/main/AntiDeleteServer/ServerDeletionService.php \
+curl -s https://raw.githubusercontent.com/donzxdxy/secreetptero/main/AntiDeleteServer/ServerDeletionService.php \
 -o $PT_PATH/app/Services/Servers/ServerDeletionService.php
 
 # Anti Delete User
-curl -s https://raw.githubusercontent.com/donzxdxy/protect-panel/main/AntiDeleteUser/UserController.php \
+curl -s https://raw.githubusercontent.com/donzxdxy/secreetptero/main/AntiDeleteUser/UserController.php \
 -o $PT_PATH/app/Http/Controllers/Admin/UserController.php
 
 
